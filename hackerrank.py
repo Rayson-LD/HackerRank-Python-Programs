@@ -89,4 +89,21 @@ if __name__ == '__main__':
     n = int(raw_input())
     lis = list(map(int,raw_input().split()))
     print(sorted(list(set(lis)))[-2])
-
+    
+#10
+if __name__ == '__main__' :
+    grade = []
+    for _ in range((int(input()))) :
+        name = raw_input()
+        score = float(input())
+        grade.append([name,score])
+    sort = sorted(list(set([x[1] for x in grade])))
+    second = sort[1]
+    final_list = []
+    for student in grade :
+        if second == student[1] :
+            final_list.append(student[0])
+    for student in sorted(final_list) :
+        print(student)
+        
+#11
