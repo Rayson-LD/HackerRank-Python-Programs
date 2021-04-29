@@ -25,5 +25,17 @@ if n>20 :
 
         
 #3
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+s = a +b
+m = a - b
+p = a*b 
+print(s)
+print(m)
+print(p)
+
+#4
+
 
 
