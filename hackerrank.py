@@ -47,6 +47,14 @@ print(s)
 print(d)
 
 #5
+if __name__ == '__main__':
+    n = int(raw_input())
+for i in range(0,n) :
+    a = i*i
+    print(a)
+
+#6
+
 
 
 
