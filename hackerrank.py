@@ -3,6 +3,7 @@ import os
 import random
 import re
 import sys
+from __future__ import division
 #1
 if __name__ == '__main__':
     print("Hello World !")
@@ -36,6 +37,17 @@ print(m)
 print(p)
 
 #4
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+
+s = a//b
+d =a/b
+print(s)
+print(d)
+
+#5
+
 
 
 
